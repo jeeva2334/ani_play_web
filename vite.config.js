@@ -6,8 +6,8 @@ const manifestForPlugin = {
   registerType:"prompt",
   includeAssets: ["favicon.ico","logo.png"],
   manifest:{
-    short_name: "Book-kart",
-    name: "Book kart",
+    short_name: "Ani-Play",
+    name: "Ani Play",
     icons: [
       {
         src: "favicon.ico",
@@ -15,12 +15,12 @@ const manifestForPlugin = {
         type: "image/x-icon"
       },
       {
-        src: "favicon.ico",
+        src: "logo.png",
         type: "image/png",
         sizes: "192x192"
       },
       {
-        src: "favicon.ico",
+        src: "logo.png",
         type: "image/png",
         sizes: "512x512"
       }
